@@ -1,2 +1,5 @@
 # tara-smiley-chrome
-A Google Chrome extension that spawns a smiley face popup every 2 hours in the top right corner of the screen
+A Google Chrome extension that spawns a smiley face to remind you that there's more to life than whatever could possibly be on your computer...
+
+# Privacy Policy
+No data is stored or collected by this extension.
