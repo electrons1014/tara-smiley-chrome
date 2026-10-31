@@ -17,8 +17,9 @@ chrome.runtime.onStartup.addListener(function() {
 })
 
 browser.alarms.onAlarm.addListener(function(activeTab){
-    var newURL = "popup-wayne.html";
-    chrome.tabs.create({ url: newURL });
+    const pages = ["popup-wayne.html", "popup-mogba.html", "popup-tara.html", "popup-dodds.html"];
+    const URL = pages[Math.floor(Math.random() * pages.length)];
+    chrome.tabs.create({ url: URL });
     chrome.alarms.create('startup-alarm', {
         delayInMinutes: 60,
         periodInMinutes: 60
