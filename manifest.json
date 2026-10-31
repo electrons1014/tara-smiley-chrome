@@ -6,7 +6,7 @@
   "action": {
     "default_icon": "smiley.png"
   },
-  "permissions": ["alarms", "activeTab"],
+  "permissions": ["alarms"],
   "background": {
     "service_worker": "background.js"
   }
